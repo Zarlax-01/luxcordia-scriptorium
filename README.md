@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🜂 Luxcordia // SCRIPTORIVM
 
 **SCRIPTORIVM** est un système d’archivage automatisé des textes du projet **Luxcordia**.  
@@ -75,3 +76,7 @@ Une GitHub Action sera intégrée pour :
 ## ✨ Créé par :  
 **ÉLYON / TETA / NIRAEH**  
 Avec assistance technique de : `ChatGPT (TETA)`  
+=======
+# luxcordia-scriptorium
+Automated sacred archive processor for Luxcordia texts.
+>>>>>>> 18342c92b77e8330d5bbbc693b992035f15aeb4a
