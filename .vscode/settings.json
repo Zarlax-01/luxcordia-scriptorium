@@ -1,0 +1,14 @@
+{
+  "python.analysis.typeCheckingMode": "off",
+  "python.analysis.diagnosticSeverityOverrides": {
+    "reportUnknownParameterType": "none",
+    "reportMissingParameterType": "none",
+    "reportUnknownArgumentType": "none",
+    "reportUnknownMemberType": "none",
+    "reportUnknownVariableType": "none",
+    "reportIncompatibleMethodOverride": "none",
+    "reportMissingTypeStubs": "none",
+    "reportPrivateUsage": "none",
+    "reportOverlappingOverload": "none"
+  }
+}
