@@ -14,6 +14,11 @@ def process_file(translator: Any, filename: str):
     original = data.get("original_text", "")
     summary_request = data.get("summary_request", "")
 
+    # Sécurité : ignorer si texte manquant
+    if not original or not summary_request:
+        print(f"[⚠] Skipped (missing fields) : {filename}")
+        return
+
     en = translate_text(translator, original, "en")
     fr_back = translate_text(translator, summary_request, "fr")
 
